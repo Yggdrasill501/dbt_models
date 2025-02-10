@@ -1,0 +1,3 @@
+SELECT ordered_coffee, COUNT(*) AS order_count
+FROM DEEPNOTE_DEVELOPMENT.TYPEFORM.COFFEE_RESPONSES
+GROUP BY ordered_coffee
